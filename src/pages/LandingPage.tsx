@@ -69,6 +69,9 @@ const LandingPage = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <img src={logoHelpTI} alt="HelpTI Logo" className="h-10 w-auto" />
+          <p className="text-4xl font-bold text-primary">
+            ㅤㅤㅤㅤHelpTI
+          </p>
           <Button asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-4 w-4" />
@@ -83,12 +86,12 @@ const LandingPage = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center animate-fade-in">
             <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-              Suporte Técnico Especializado
+              Suporte Técnico Rápido
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Problemas com seu computador?
+              Problemas com TI?
               <br />
-              <span className="text-primary">Resolvemos agora!</span>
+              <span className="text-primary">Conectamos você a um tecnico especializado.</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
               Fale diretamente com um técnico de TI qualificado. 
