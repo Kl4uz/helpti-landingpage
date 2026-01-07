@@ -68,10 +68,16 @@ const LandingPage = () => {
       {/* Header/Nav */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+
           <img src={logoHelpTI} alt="HelpTI Logo" className="h-10 w-auto" />
-          <p className="text-4xl font-bold text-primary">
-            ㅤㅤㅤㅤHelpTI
+          <p 
+          className="text-4xl font-bold text-primary"
+          // style={{paddingLeft: "8rem"}}
+          >
+            HelpTI
           </p>
+          </div>
           <Button asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-4 w-4" />
@@ -232,11 +238,11 @@ const LandingPage = () => {
           <Button 
             asChild 
             size="lg" 
-            className="text-lg px-10 py-7 animate-pulse-glow"
+            className="flex flex-auto text-lg px-10 py-7 animate-pulse-glow"
           >
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="mr-2 h-6 w-6" />
-              Chamar Técnico no WhatsApp
+             <MessageCircle className="mr-2 h-6 w-6" />
+              Contatar Técnico 
             </a>
           </Button>
         </div>
