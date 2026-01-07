@@ -92,7 +92,7 @@ const LandingPage = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center animate-fade-in">
             <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-              Suporte Técnico Rápido
+              Palmas - Tocantins
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Problemas com TI?
@@ -161,7 +161,7 @@ const LandingPage = () => {
                 <span className="text-2xl font-bold text-secondary-foreground">3</span>
               </div>
               <h3 className="font-display font-semibold text-foreground mb-2">Problema resolvido</h3>
-              <p className="text-muted-foreground text-sm">Resolveremos remotamente ou agendaremos uma visita técnica.</p>
+              <p className="text-muted-foreground text-sm">Resolveremos remotamente ou agendaremos uma visita técnica em toda a região de Palmas.</p>
             </div>
           </div>
         </div>
@@ -256,7 +256,7 @@ const LandingPage = () => {
               <img src={logoHelpTI} alt="HelpTI Logo" className="h-10 w-auto rounded bg-white p-1" />
               <div>
                 <h3 className="font-display font-semibold text-lg">HelpTI</h3>
-                <p className="text-sm opacity-80">Soluções de TI simplificadas</p>
+                <p className="text-sm opacity-80">Soluções de TI em Palmas-TO</p>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -276,7 +276,7 @@ const LandingPage = () => {
                 size="lg"
                 className="border-background/30 text-background hover:bg-background/10"
               >
-                <a href="tel:+5511999999999">
+                <a href="tel:+5563991370849">
                   <Phone className="mr-2 h-5 w-5" />
                   Ligar Agora
                 </a>
