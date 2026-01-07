@@ -97,7 +97,7 @@ const LandingPage = () => {
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Problemas com TI?
               <br />
-              <span className="text-primary">Conectamos você a um tecnico especializado.</span>
+              <span className="text-primary">Suporte técnico de confiança, rápido e simples</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
               Fale diretamente com um técnico de TI qualificado. 
