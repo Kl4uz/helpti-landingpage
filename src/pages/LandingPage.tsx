@@ -1,7 +1,6 @@
 import { MessageCircle, Phone, Headphones, Shield, Monitor, Settings, Users, Zap, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logoHelpTI from "@/assets/logo-helpti.png";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const WHATSAPP_NUMBER = "63992580388"; // Substituir pelo número real
 const WHATSAPP_MESSAGE = "Olá! Gostaria de falar com um técnico de TI.";
@@ -291,7 +290,6 @@ const LandingPage = () => {
           </div>
         </div>
       </footer>
-      <SpeedInsights/>
     </div>
   );
 };
