@@ -1,5 +1,5 @@
 import LandingPage from "./pages/LandingPage";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 function App() {
