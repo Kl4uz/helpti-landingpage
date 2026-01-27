@@ -2,7 +2,7 @@ import { MessageCircle, Phone, Headphones, Shield, Monitor, Settings, Users, Zap
 import { Button } from "@/components/ui/button";
 import logoHelpTI from "@/assets/logo-helpti.png";
 
-const WHATSAPP_NUMBER = "63992580388"; // Substituir pelo número real
+const WHATSAPP_NUMBER = "63991370849"; // Substituir pelo número real
 const WHATSAPP_MESSAGE = "Olá! Gostaria de falar com um técnico de TI.";
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
@@ -64,6 +64,7 @@ const differentials = [
 
 const LandingPage = () => {
   return (
+
     <div className="min-h-screen bg-background">
       {/* Header/Nav */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -142,6 +143,7 @@ const LandingPage = () => {
             Sem burocracia, sem formulários intermináveis.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
+
             <div className="p-6 rounded-xl bg-background border border-border animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-primary">1</span>
