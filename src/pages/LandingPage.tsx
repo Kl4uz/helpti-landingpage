@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Headphones, Shield, Monitor, Settings, Users, Zap, CheckCircle, ArrowRight } from "lucide-react";
+import { MessageCircle, Phone, Headphones, Shield, Monitor, Settings, Users, Zap, CheckCircle, ArrowRight, Mail, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logoHelpTI from "@/assets/logo-helpti.png";
 
@@ -255,9 +255,14 @@ const LandingPage = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-4">
-              <img src={logoHelpTI} alt="HelpTI Logo" className="h-10 w-auto rounded bg-white p-1" />
+              <img src={logoHelpTI} alt="HelpTI Logo" className="h-16 w-auto rounded bg-white p-1" />
               <div>
-                <h3 className="font-display font-semibold text-lg">HelpTI</h3>
+                <a className="flex flex-content items-center" href="https://instagram.com/helpti" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="mr-2 h-5 w-5 " />@helptibr
+                </a>
+                <a className="flex flex-content items-center" href="mailto:contato@helptibr.com">
+                  <Mail className="mr-2 h-5 w-5 " />contato@helptibr.com
+                </a>
                 <p className="text-sm opacity-80">Soluções de TI em Palmas-TO</p>
               </div>
             </div>
