@@ -208,7 +208,7 @@ const LandingPage = () => {
             <div className="flex items-center gap-4">
               <img src={logoHelpTI} alt="HelpTI Logo" className="h-16 w-auto rounded bg-white p-1" />
               <div>
-                <a className="flex flex-content items-center" href="https://instagram.com/helpti" target="_blank" rel="noopener noreferrer">
+                <a className="flex flex-content items-center" href="https://instagram.com/helptibr" target="_blank" rel="noopener noreferrer">
                   <Instagram className="mr-2 h-5 w-5 opacity-60" />
                   <p className="opacity-80">
                     @helptibr
