@@ -209,11 +209,17 @@ const LandingPage = () => {
               <img src={logoHelpTI} alt="HelpTI Logo" className="h-16 w-auto rounded bg-white p-1" />
               <div>
                 <a className="flex flex-content items-center" href="https://instagram.com/helpti" target="_blank" rel="noopener noreferrer">
-                  <Instagram className="mr-2 h-5 w-5 " />@helptibr
+                  <Instagram className="mr-2 h-5 w-5 opacity-60" />
+                  <p className="opacity-80">
+                    @helptibr
+                  </p>
                 </a>
                 <a className="flex flex-content items-center" href="mailto:contato@helptibr.com">
-                  <Mail className="mr-2 h-5 w-5 " />contato@helptibr.com
-                </a>
+                  <Mail className="mr-2 h-5 w-5 opacity-60" />
+                  <p className="opacity-80">
+                    contato@helptibr.com
+                  </p>                
+                  </a>
                 <p className="text-sm opacity-80">Soluções de TI em Palmas-TO</p>
               </div>
             </div>
